@@ -7,7 +7,7 @@ import { sendToken } from "../utils/jwtToken.js";
 
 
 passport.use(new GoogleStrategy({
-  clientID: "576922947872-563nld0gueo69ndjs5i0vsf9f0vt6fee.apps.googleusercontent.com",
+  clientID: "t.com",
   clientSecret: process.env.GOOGLE_CLIENT_SECRET,
   callbackURL: 'http://localhost:4000/api/v1/user/auth/google/callback',
   scope: ['profile', 'email'],
